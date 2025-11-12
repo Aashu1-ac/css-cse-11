@@ -1,0 +1,21 @@
+body{
+    background-color: lightblue;
+
+}
+h2{
+    color:aqua;
+    background-color: lightblue;
+    
+}
+p{
+    color:brown;
+    text-align: center;
+}
+.par{
+    color: aquamarine;
+    
+    
+}
+#aa{
+    color:green
+}
