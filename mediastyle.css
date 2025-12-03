@@ -9,9 +9,54 @@
     body{background-color: blue;}
     
 } */
-.box{
+/* .box{
     background-color: blueviolet;
 height: 200px;
 width: 200px;
 
+} */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  padding: 20px;
+}
+
+.title {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.container {
+  display: flex;
+  gap: 20px;
+}
+
+.box {
+  flex: 1;
+  padding: 40px 0;
+  text-align: center;
+  color: #fff;
+  font-size: 20px;
+  border-radius: 6px;
+}
+
+.box1 { background: #007bff; }
+.box2 { background: #28a745; }
+.box3 { background: #ff9800; }
+@media (max-width: 600px) {
+    
+  .container {
+    background-color: red;
+    display: block;
+  }
+
+  .box {
+    margin-bottom: 15px;
+  }
 }
