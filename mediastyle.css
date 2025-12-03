@@ -1,0 +1,17 @@
+@media(max-width:768px){
+    p{font-size: 77px;
+    background-color: black;}
+
+
+}
+
+/* @media(orientation: landscape) {
+    body{background-color: blue;}
+    
+} */
+.box{
+    background-color: blueviolet;
+height: 200px;
+width: 200px;
+
+}
